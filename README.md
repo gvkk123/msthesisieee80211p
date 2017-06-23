@@ -1,6 +1,6 @@
 # Evaluation Of Interference-Cancellation Based MAC Protocols For Vehicular Communications
 
-## Welcome to GitHub Pages
+## MS Thesis - Kiran Kumar G V - Electrical Engineering - Texas A&M University
 
 You can use the [editor on GitHub](https://github.com/gvkk123/msthesisieee80211p/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
