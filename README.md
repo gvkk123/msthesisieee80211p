@@ -1,4 +1,4 @@
-## Repository for MS Thesis for Implementation Evaluation Of Interference-Cancellation Based MAC Protocols For Vehicular Communications
+# Evaluation Of Interference-Cancellation Based MAC Protocols For Vehicular Communications
 
 ## Welcome to GitHub Pages
 
