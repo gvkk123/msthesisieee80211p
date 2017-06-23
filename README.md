@@ -2,6 +2,10 @@
 
 ## MS Thesis - Kiran Kumar G V - Electrical Engineering - Texas A&M University
 
+This repository provides the MATLAB Code and the Documentation for my MS Thesis.
+
+
+
 You can use the [editor on GitHub](https://github.com/gvkk123/msthesisieee80211p/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
