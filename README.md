@@ -4,5 +4,7 @@
 
 This repository provides the MATLAB Code and the Documentation for my MS Thesis.
 
-This repository is available for public domain and can be accessed via the following link:
+This repository can be accessed via the following link:
+
+
 https://github.com/gvkk123/msthesisieee80211p
