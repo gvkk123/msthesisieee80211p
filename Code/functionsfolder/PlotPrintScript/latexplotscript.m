@@ -5,7 +5,7 @@ close all;
 %%
 %For printing into eps file with 600dpi
 
-print('-deps','-r600','plr.eps')
+%print('-deps','-r600','plr.eps')
 
 %%
 %Setting font name and title

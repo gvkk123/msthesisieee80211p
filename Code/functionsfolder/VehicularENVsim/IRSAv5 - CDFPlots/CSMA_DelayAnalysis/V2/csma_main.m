@@ -3,8 +3,14 @@ clear;
 close all;
 
 %%
+% Defining Channel  Load(G) in percentage.
+G = 100;
+%Total Slots available
+T_slots = 172;
+
 %  Users Initialisation
-user_density  = 172;
+user_density  = floor((G/100)*T_slots);
+%user_density  = 172;
 
 % Simulation Time
 t_sim = 200e-3;
@@ -90,10 +96,12 @@ while (timer <= N)
             TC{i,3} = TC{i,3} - 1;
         
         elseif ((TC{i,4} == timer)&&(channel_stN(timer)==1)&& (TC{i,3}==0))
+            channelfreedtime = fnchannelIDLEfinder(channel_stN,timer);
+            TC{i,4} = channelfreedtime;
             %Tx. Start time
-            TC{i,4} = Inf;
+            %TC{i,4} = Inf;
             %Tx. End time
-            TC{i,5} = Inf;
+            %TC{i,5} = Inf;
         end
     end
     
@@ -114,7 +122,7 @@ for i = 1: user_density
     T_CA2(i) = TC{i,4}-TC{i,2};
     T_CA2(i) = T_CA2(i)/(10^6);
 end
-
+%%
 % Sorting Array for first transmitted slot cell part and CDF Plotting.
 fn_CDFplot(T_CA2);
 
