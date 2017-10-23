@@ -49,7 +49,6 @@ TC = cell(user_density,4);
 % Defining Channel Access Time
 T_CA = zeros(user_density,1);
 
-
 %%
 
 for i = 1: user_density
@@ -63,13 +62,16 @@ end
 
 for i = 1: user_density
    
+    % Randomly generated user access time
     usertime = TC{i,2};
     
     [channel_stN,tx_start,tx_end] = fnCSMACA(usertime,channel_stN,T_AIFS,t_pack,aSlotTime,prioity_mode,CW_min,CW_max);
     
+    % Time at which user starts transmission
     TC{i,3} = tx_start;
     T_CA(i) = tx_start/(10^6);
     
+    % Time at which user ends transmission
     TC{i,4} = tx_end;
 end
 
