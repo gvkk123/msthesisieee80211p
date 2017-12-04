@@ -1,0 +1,20 @@
+
+#########################################################################################
+1. The Matlab Script "ieee80211p.m" runs a basic IEEE 802.11p simulator
+   (Baseband Transmitter,Receiever with Wireless fading channel).
+	
+	The variable "rateid" sets the modulation type and data rate for transmission
+	Default value of rateid=3, QPSK, 6Mbps Data rate.
+	
+	The variable "ChannelMode" sets the different types of wireless fading channels.
+	
+############################################################################################ 
+2. The Matlab Script "ieee80211p_PER.m" runs a Packet error rate Simulation for 
+   IEEE 802.11p simulator on different modulations and fading channels.	
+
+############################################################################################ 
+3. The Matlab Script "slottedALOHA" runs a Packet loss ratio and Throughput Simulation for 
+   IEEE 802.11p simulator on a IRSA MAC scheme.
+
+##########################################################################################
+4. Matlab Versions R2016b and R2017a will work for this code. Older version might not work.  
