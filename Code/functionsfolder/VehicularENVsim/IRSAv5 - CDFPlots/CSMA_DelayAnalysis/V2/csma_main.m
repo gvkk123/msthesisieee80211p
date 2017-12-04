@@ -4,7 +4,7 @@ close all;
 
 %%
 % Defining Channel  Load(G) in percentage.
-G = 100;
+G = 25;
 %Total Slots available
 T_slots = 172;
 
