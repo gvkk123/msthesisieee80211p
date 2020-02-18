@@ -1,6 +1,6 @@
 # Evaluation Of Interference-Cancellation Based MAC Protocols For Vehicular Communications
 
-## MS Thesis - [Kiran Kumar G V](https://www.linkedin.com/in/gvkk123/) - Electrical Engineering - Texas A&M University
+## MS Thesis - [Kiran Kumar G V](https://www.linkedin.com/in/gvkk123/) - Electrical Engineering - Texas A&M University - 2017
 
 This repository provides the MATLAB Code and the Documentation for my MS Thesis.
 
